@@ -1,0 +1,21 @@
+{
+  "name": "crud-challenge",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/server.js --watch",
+    "dev:stream": "node streams/import-csv.js",
+    "lint": "eslint src --ext .js --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
+}
